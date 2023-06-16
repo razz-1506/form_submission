@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goole-form</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+</head>
+
+<body>
+
+    <form action="#" autocomplete="on"></form>
+    <fieldset style="background-color: rgb(198, 235, 197)" ;>
+        <legend><strong>GoogleForm</strong></legend>
+        <lable for="email" id="email">Email</lable>
+        <input type="text" name="Email" placeholder="Enter your Email"><br><br>
+        <lable for="fname" id="fname">First Name</lable>
+        <input type="text" name="fname" placeholder="Enter your first name"><br><br>
+        <lable for="lname" id="lname">Last Name</lable>
+        <input type="text" name="lname" placeholder="Enter your last name"><br><br>
+        <lable for="branch" name="branch">Choose Your Branch Name:</lable>
+        <input list="branch">
+        <datalist id="branch">
+            <option value="CSE">
+            <option value="EC">
+            <option value="EX">
+            <option value="ME">
+            <option value="CE">
+        </datalist><Br><br>
+        <lable for="aderess" id="address" name="address">Current Address:</lable><br>
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Your Adress"></textarea><br><br>
+        Gender<br>
+        <input type="radio" value="male" name="gender">male
+        <input type="radio" value="female" name="gender">female<br><br>
+        Disability<br>
+        <input type="checkbox" value="Yes" name="disable">Yes
+        <input type="checkbox" value="No" name="disable">No<br><br>
+        <label for="files">Attach Resume:</label><br>
+        <input type="file" id="files" name="files" multiple><br><br>
+        <label for="Submit" id="submit">Click on Submit</label><br>
+        <input type="submit" id="submit"  value="Submit" onclick="alert('You Submitted Successfully!')">
+        
+
+    </fieldset>
+    </form>
+
+</body>
+
+</html>
